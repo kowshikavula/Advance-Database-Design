@@ -1,3 +1,5 @@
+//Query1
+//Collection and Document creation with a person details
 db.createCollection('classwork')
 db.classwork.insertOne({
     "_id": 123,
@@ -20,6 +22,9 @@ db.classwork.insertOne({
   insertedId: 123
 }*/
 
+//Query 2
+//InsertOne() Example
+
 db.createCollection('School')
 db.School.insertOne([  
   {
@@ -39,6 +44,7 @@ db.School.insertOne([
     }
 }*/
 
+  //Query 3 : InsertMany() Example
 db.createCollection('Home')
 db.Home.insertMany([  
   {
@@ -63,7 +69,6 @@ db.Home.insertMany([
     category: "Event",
     likes: 4,
     tags: ["news", "events"],
-    date: Date()
   }
 ])
 
@@ -75,5 +80,5 @@ db.Home.insertMany([
     '1': ObjectId('65b1553c5326bc7c7f57cf1d'),
     '2': ObjectId('65b1553c5326bc7c7f57cf1e')
   }
-}
-*/
+}*/
+
